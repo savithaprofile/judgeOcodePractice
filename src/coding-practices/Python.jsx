@@ -297,7 +297,7 @@ const Python = () => {
           <h2>{questions[currentQuestion].title}</h2>
           <p>{questions[currentQuestion].description}</p>
           <div className="test-cases">
-            <h4>Test Cases:</h4>
+            <h4>Additional Info:</h4>
             {questions[currentQuestion].testCases.map((testCase, index) => (
               <div key={index} className="test-case">
                 <strong>Input:</strong> {testCase.input || "(none)"}<br />
